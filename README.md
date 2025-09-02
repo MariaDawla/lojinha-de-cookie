@@ -8,7 +8,7 @@ Bem-vindo(a) à **Sweet Treat**, uma lojinha virtual extremamente fofa feita par
 ## 📖 Sobre o projeto  
 O projeto é um catálogo online de cookies, onde você pode:  
 - Ver a listagem dos cookies disponíveis;  
-- Clicar em um cookie para abrir um modal com mais detalhes (descrição, imagem, preço, etc).  
+- Clicar em um cookie para abrir um modal com mais detalhes.  
 
 ---
 
@@ -23,25 +23,9 @@ O projeto é um catálogo online de cookies, onde você pode:
 ```git clone https://github.com/MariaDawla/lojinha-de-cookie.git ```
 
 - Acesse a pasta do projeto
-```cd modal/ ```
+```cd docs/ ```
 
 - Abra o index.html no navegador
-
----
-
-## 🤝 Contribuição
-
-Quer ajudar a deixar a lojinha ainda mais doce?
-
-- Faça um fork 🍴
-
-- Crie uma branch (git checkout -b feature/nova-feature)
-
-- Commit suas mudanças (git commit -m 'Adicionei uma nova feature')
-
-- Push (git push origin feature/nova-feature)
-
-- Abra um Pull Request ✨
 
 ---
 
