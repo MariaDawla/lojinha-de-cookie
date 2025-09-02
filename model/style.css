@@ -20,7 +20,6 @@ section {
     background-image: url('./imagens/background.png');
     background-size: contain;
     width: 100%;
-    /* height: 120vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,7 +69,7 @@ section p {
 .cookie {
     background-color: #F667A5;
     width: 30%;
-    height: 250px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,3 +94,120 @@ section p {
     transition: 0.3s;
     background-color: #FDA5CF;
 }
+
+/* Estilização do botão de adicionar no carrinho */
+.cookie button {
+    padding: 8px 16px;            
+    border-radius: 7px;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    font-size: 0.9rem;            
+    margin-top: 20px;            
+    background: #FFB6C1;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.cookie button:hover {
+    background: #FF69B4;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 8px rgba(0,0,0,0.3);
+}
+
+/* Estilização do modal */
+
+/* Modal geral */
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FDA5CF;
+    width: 570px;
+    padding: 20px;
+    border-radius: 20px; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2); 
+    gap: 20px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cartModal {
+    padding: 0; 
+    border: none; 
+    border-radius: 20px;
+    box-shadow: rgb(248, 135, 193) 0px 2px 8px;
+    position: fixed;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Deixa o fundo mais escuro quando abrir o modal */
+dialog::backdrop {
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* Card dos cookies */
+.cardCookie img {
+    width: 80%; 
+    margin-bottom: 10px;
+}
+
+.cardCookie p {
+    color: white;
+    text-align: center;
+    margin: 5px 0;
+    font-weight: 550;
+    font-size: medium;
+}
+
+.cardCookie {
+    background-color: #F667A5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    border-radius: 15px;
+    width: 180px; 
+    box-shadow: rgb(249, 103, 178) 0px 4px 12px
+}
+
+/* Card das informações adicionais */
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    max-width: 300px;
+}
+
+.infos h3 {
+    font-family: 'Agbalumo', system-ui;
+    font-weight: 600;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.infos button {
+    width: 200px;
+    background: linear-gradient(to right, #F91FA7, #FFD6C5);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 18px 0;
+    font-size: medium;
+    transition: transform 0.2s;
+    margin-bottom: 10%;
+    box-shadow: rgb(255, 132, 195) 0px 4px 12px;
+    transition: 0.3s;
+}
+
+.infos button:hover {
+    transform: scale(1.08);
+}
+
+
+
