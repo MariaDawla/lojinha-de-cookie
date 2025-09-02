@@ -61,7 +61,7 @@ section p {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 60px 40px;
+    gap: 60px 50px;
     padding-bottom: 2%;
 }
 
@@ -69,14 +69,14 @@ section p {
 .cookie {
     background-color: #F667A5;
     width: 30%;
-    height: 300px;
+    height: 320px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border-radius: 15px;
-     box-shadow: rgb(248, 135, 193) 0px 4px 12px;
-     transition: 0.3s;
+    box-shadow: rgb(248, 135, 193) 0px 4px 12px;
+    transition: 0.3s;
 }
 
 .cookie img {
@@ -90,18 +90,18 @@ section p {
 }
 
 .cookie:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 0.3s;
     background-color: #FDA5CF;
 }
 
-/* Estilização do botão de adicionar no carrinho */
+/* Botão de adicionar no carrinho */
 .cookie button {
     padding: 8px 16px;            
     border-radius: 7px;
     font-family: 'Verdana', Geneva, Tahoma, sans-serif;
     font-size: 0.9rem;            
-    margin-top: 20px;            
+    margin: 20px 0;            
     background: #FFB6C1;
     color: white;
     box-shadow: 0 4px 6px rgba(0,0,0,0.2);
@@ -115,7 +115,6 @@ section p {
 }
 
 /* Estilização do modal */
-
 /* Modal geral */
 .modal {
     display: flex;
@@ -173,7 +172,6 @@ dialog::backdrop {
 }
 
 /* Card das informações adicionais */
-
 .infos {
     display: flex;
     flex-direction: column;
@@ -200,7 +198,6 @@ dialog::backdrop {
     padding: 18px 0;
     font-size: medium;
     transition: transform 0.2s;
-    margin-bottom: 10%;
     box-shadow: rgb(255, 132, 195) 0px 4px 12px;
     transition: 0.3s;
 }
@@ -208,6 +205,3 @@ dialog::backdrop {
 .infos button:hover {
     transform: scale(1.08);
 }
-
-
-
